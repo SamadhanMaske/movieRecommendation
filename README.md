@@ -1,4 +1,4 @@
-Here, I have implemented various collaborative filtering algorithms as different classes (models)
+Here, We have implemented various collaborative filtering algorithms as different classes (models)
 We have not used scikit learn in our code but have implemented all the algorithms by reading up from research 
 papers but way of implementation is similar to scikit learn by encapsulating them in a black box.
 

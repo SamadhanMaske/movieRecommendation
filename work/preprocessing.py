@@ -162,7 +162,7 @@ for k in num_neighbours:
 	# print k,scores_u[-1]
 
 y_pred = [predict_all(v[0],v[1]) for v in X_test]
-print np.mean((y - y_pred)**2)
+print (np.mean((y - y_pred)**2))
 
 # num_neighbours = (np.linspace(20,1600,40)).astype(int)
 

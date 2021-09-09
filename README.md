@@ -1,8 +1,8 @@
-Here, I have implemented various collaborative filtering algorithms as different classes (models)
+Here, We have implemented various collaborative filtering algorithms as different classes (models)
 We have not used scikit learn in our code but have implemented all the algorithms by reading up from research 
 papers but way of implementation is similar to scikit learn by encapsulating them in a black box.
 
-There is not anything to test these algorithms as my project included their empirical analysis and implementation
+There is not anything to test these algorithms as our project included their empirical analysis and implementation
 and digging into the details of how they work. Currently, we are using the dataset `ua.base` and `ua.test` for training and testing respectively.
 
 The main.py contains the following models:

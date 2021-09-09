@@ -186,7 +186,7 @@ class SVD(Wrapper):
     def predict_rating(self, user, movie):
         x = np.dot(self.U[user], self.M[movie])
         if(self.bias == True):
-            x += mu + self.alpha[user] + self.beta[movie]
+            x = x +  mu + self.alpha[user] + self.beta[movie]
         return x
 
     # splits the data into test and train for cross validation purposes (n fold splitting)
@@ -260,7 +260,7 @@ X_test = test.values
 y_test = test['rating'].values
 X_test = np.delete(X_test,2,axis = 1)
 
-print "Prediction for user 1 and movie 10 is", KNN.similarityall_predict(1, 10)
+print("Prediction for user 1 and movie 10 is {}".format(KNN.similarityall_predict(1, 10)))
 
 # For plotting related to KNN
 
